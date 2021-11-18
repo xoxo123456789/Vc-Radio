@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 
 
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player Bot** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop. Made with ❤️ By @Mr_D_P!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **DMG-X RADIO PLAYER BOT** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop.Mᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ @ᴍʀSHAGGYʙᴏʏ !"
 HELP = """
 🏷️ **Common Commands**:
 \u2022 `/play` reply to an audio to play or queue it
@@ -28,7 +28,7 @@ HELP = """
 \u2022 `/unmute` unmute the VC userbot
 \u2022 `/restart` restart the bot
 
-🏷️ **Developer: @I_Am_Only_One_1** 👑
+🏷️ **Developer: DMG-X TM** 👑
 """
 
 
@@ -36,12 +36,12 @@ HELP = """
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('CHANNEL', url='https://t.me/Mr_D_P'),
-        InlineKeyboardButton('SUPPORT', url='https://t.me/Anganavadi_Chat'),
+        InlineKeyboardButton('DMG-X', url='https://t.me/Dark_music_Gangex_2021),
+        InlineKeyboardButton('SL MUSIC ZONE ', url='https://t.me/SLMUSICZONE1'),
     ],
     [
-        InlineKeyboardButton('MORE BOTS', url='https://t.me/Anganavadi_chat'),
-        InlineKeyboardButton('SOURCE CODE', url='https://github.com/Mr-dark-prince/Vc-Radio'),
+        InlineKeyboardButton('SUPPORT GROUP', url='https://t.me/Tech_Connected'),
+        InlineKeyboardButton('CHANNEL', url='https://t.me/tech_connect_channel'),
     ],
     [
         InlineKeyboardButton('⚙️ HELP ⚙️', callback_data='help'),
